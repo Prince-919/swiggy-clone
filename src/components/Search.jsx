@@ -4,10 +4,7 @@ import Dishes from "./Dishes";
 import RestaurantsData from "./RestaurantsData";
 import { Coordinates } from "../context/contextApi";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  resetSimilarResDish,
-  toggleIsSimilarResDishes,
-} from "../redux/toggleSlice";
+import { resetSimilarResDish } from "../redux/toggleSlice";
 import withSearchReatuarantHoc from "./withSearchReatuarantHoc";
 
 const Search = () => {
